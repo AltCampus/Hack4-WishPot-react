@@ -10,6 +10,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route path='/' component={Dashboard} exact />
+            <Route path='/create' component={CreateWish} exact />
           </Switch>
         </Router> 
       </div>
